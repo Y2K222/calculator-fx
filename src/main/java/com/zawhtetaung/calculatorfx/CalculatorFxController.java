@@ -30,7 +30,7 @@ public class CalculatorFxController implements Initializable {
     }
 
     public void handleAbout() {
-        Alert infoAlert = new Alert(Alert.AlertType.INFORMATION, "Simple Calculator by Zaw Htet Aung.Github link ", ButtonType.OK);
+        Alert infoAlert = new Alert(Alert.AlertType.INFORMATION, "Simple Calculator by Zaw Htet Aung.Github link https://github.com/Y2K222/calculator-fx.git", ButtonType.OK);
         infoAlert.show();
     }
     /**
